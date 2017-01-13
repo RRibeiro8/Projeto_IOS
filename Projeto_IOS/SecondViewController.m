@@ -272,29 +272,6 @@
         return [_arrFiles count];
     }
 
-
-    -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
-        UITableViewCell *cell;
-        
-        cell = [tableView dequeueReusableCellWithIdentifier:@"CellIdentifier"];
-    
-        if (cell == nil) {
-            cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"CellIdentifier"];
-            [cell setAccessoryType:UITableViewCellAccessoryDisclosureIndicator];
-        }
-    
-        cell.textLabel.text = [_arrFiles objectAtIndex:indexPath.row];
-    
-        [[cell textLabel] setFont:[UIFont systemFontOfSize:14.0]];
-    
-        return cell;
-    }
-
-
-    -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
-        return 60.0;
-    }
-
     - (void)didReceiveMemoryWarning {
         [super didReceiveMemoryWarning];
         // Dispose of any resources that can be recreated.

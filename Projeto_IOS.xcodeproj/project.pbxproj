@@ -430,7 +430,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Projeto_IOS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "rribeiro.Projeto-IOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -442,7 +442,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Projeto_IOS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "rribeiro.Projeto-IOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -516,6 +516,7 @@
 				F787F5681E2945CB00D293A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F787F5691E2945CB00D293A9 /* Build configuration list for PBXNativeTarget "Projeto_IOSTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +525,7 @@
 				F787F56B1E2945CB00D293A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F787F56C1E2945CB00D293A9 /* Build configuration list for PBXNativeTarget "Projeto_IOSUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +534,7 @@
 				F787F56E1E2945CB00D293A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

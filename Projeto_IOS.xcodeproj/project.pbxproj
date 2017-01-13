@@ -115,9 +115,9 @@
 				F787F53F1E2945CB00D293A9 /* FirstViewController.h */,
 				F787F5401E2945CB00D293A9 /* FirstViewController.m */,
 				F787F5421E2945CB00D293A9 /* SecondViewController.h */,
+				F787F5431E2945CB00D293A9 /* SecondViewController.m */,
 				F787F5721E2952D000D293A9 /* MCManager.h */,
 				F787F5731E2952D000D293A9 /* MCManager.m */,
-				F787F5431E2945CB00D293A9 /* SecondViewController.m */,
 				F787F56F1E2946ED00D293A9 /* ConnectionsViewController.h */,
 				F787F5701E2946ED00D293A9 /* ConnectionsViewController.m */,
 				F787F5451E2945CB00D293A9 /* Main.storyboard */,
@@ -222,6 +222,7 @@
 				TargetAttributes = {
 					F787F5351E2945CB00D293A9 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = PHQ37KZRYM;
 					};
 					F787F5511E2945CB00D293A9 = {
 						CreatedOnToolsVersion = 7.1;
@@ -429,11 +430,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Projeto_IOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "rribeiro.Projeto-IOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -441,11 +445,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Projeto_IOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "rribeiro.Projeto-IOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

@@ -17,6 +17,7 @@
 		F787F5571E2945CB00D293A9 /* Projeto_IOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F787F5561E2945CB00D293A9 /* Projeto_IOSTests.m */; };
 		F787F5621E2945CB00D293A9 /* Projeto_IOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F787F5611E2945CB00D293A9 /* Projeto_IOSUITests.m */; };
 		F787F5711E2946ED00D293A9 /* ConnectionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F787F5701E2946ED00D293A9 /* ConnectionsViewController.m */; };
+		F787F5741E2952D000D293A9 /* MCManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F787F5731E2952D000D293A9 /* MCManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		F787F5631E2945CB00D293A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F787F56F1E2946ED00D293A9 /* ConnectionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionsViewController.h; sourceTree = "<group>"; };
 		F787F5701E2946ED00D293A9 /* ConnectionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectionsViewController.m; sourceTree = "<group>"; };
+		F787F5721E2952D000D293A9 /* MCManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCManager.h; sourceTree = "<group>"; };
+		F787F5731E2952D000D293A9 /* MCManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 				F787F53F1E2945CB00D293A9 /* FirstViewController.h */,
 				F787F5401E2945CB00D293A9 /* FirstViewController.m */,
 				F787F5421E2945CB00D293A9 /* SecondViewController.h */,
+				F787F5721E2952D000D293A9 /* MCManager.h */,
+				F787F5731E2952D000D293A9 /* MCManager.m */,
 				F787F5431E2945CB00D293A9 /* SecondViewController.m */,
 				F787F56F1E2946ED00D293A9 /* ConnectionsViewController.h */,
 				F787F5701E2946ED00D293A9 /* ConnectionsViewController.m */,
@@ -281,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F787F5711E2946ED00D293A9 /* ConnectionsViewController.m in Sources */,
+				F787F5741E2952D000D293A9 /* MCManager.m in Sources */,
 				F787F5441E2945CB00D293A9 /* SecondViewController.m in Sources */,
 				F787F53E1E2945CB00D293A9 /* AppDelegate.m in Sources */,
 				F787F5411E2945CB00D293A9 /* FirstViewController.m in Sources */,

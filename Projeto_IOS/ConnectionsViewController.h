@@ -10,13 +10,14 @@
 
 @interface ConnectionsViewController : UIViewController
 
-@property (weak, nonatomic) IBOutlet UITextField *txtName;
-@property (weak, nonatomic) IBOutlet UISwitch *swVisible;
-@property (weak, nonatomic) IBOutlet UITableView *tblConnectedDevices;
-@property (weak, nonatomic) IBOutlet UIButton *btnDisconnect;
+    @property (weak, nonatomic) IBOutlet UITextField *txtName; // for the sharing name definition
+    @property (weak, nonatomic) IBOutlet UISwitch *swVisible; // for enable or disable visibility to other
+    @property (weak, nonatomic) IBOutlet UITableView *tblConnectedDevices; // to show current connected peers
+    @property (weak, nonatomic) IBOutlet UIButton *btnDisconnect; // for disconnecting a peer
 
-- (IBAction)browseForDevices:(id)sender;
-- (IBAction)toggleVisibility:(id)sender;
-- (IBAction)disconnect:(id)sender;
+
+    - (IBAction)browseForDevices:(id)sender;
+    - (IBAction)toggleVisibility:(id)sender;
+    - (IBAction)disconnect:(id)sender;
 
 @end

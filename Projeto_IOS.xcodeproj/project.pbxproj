@@ -16,6 +16,7 @@
 		F787F54C1E2945CB00D293A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F787F54A1E2945CB00D293A9 /* LaunchScreen.storyboard */; };
 		F787F5571E2945CB00D293A9 /* Projeto_IOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F787F5561E2945CB00D293A9 /* Projeto_IOSTests.m */; };
 		F787F5621E2945CB00D293A9 /* Projeto_IOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F787F5611E2945CB00D293A9 /* Projeto_IOSUITests.m */; };
+		F787F5711E2946ED00D293A9 /* ConnectionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F787F5701E2946ED00D293A9 /* ConnectionsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		F787F55D1E2945CB00D293A9 /* Projeto_IOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Projeto_IOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F787F5611E2945CB00D293A9 /* Projeto_IOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Projeto_IOSUITests.m; sourceTree = "<group>"; };
 		F787F5631E2945CB00D293A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F787F56F1E2946ED00D293A9 /* ConnectionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionsViewController.h; sourceTree = "<group>"; };
+		F787F5701E2946ED00D293A9 /* ConnectionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectionsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				F787F5401E2945CB00D293A9 /* FirstViewController.m */,
 				F787F5421E2945CB00D293A9 /* SecondViewController.h */,
 				F787F5431E2945CB00D293A9 /* SecondViewController.m */,
+				F787F56F1E2946ED00D293A9 /* ConnectionsViewController.h */,
+				F787F5701E2946ED00D293A9 /* ConnectionsViewController.m */,
 				F787F5451E2945CB00D293A9 /* Main.storyboard */,
 				F787F5481E2945CB00D293A9 /* Assets.xcassets */,
 				F787F54A1E2945CB00D293A9 /* LaunchScreen.storyboard */,
@@ -275,6 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F787F5711E2946ED00D293A9 /* ConnectionsViewController.m in Sources */,
 				F787F5441E2945CB00D293A9 /* SecondViewController.m in Sources */,
 				F787F53E1E2945CB00D293A9 /* AppDelegate.m in Sources */,
 				F787F5411E2945CB00D293A9 /* FirstViewController.m in Sources */,
@@ -418,6 +424,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Projeto_IOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "rribeiro.Projeto-IOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -429,6 +436,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Projeto_IOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "rribeiro.Projeto-IOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";

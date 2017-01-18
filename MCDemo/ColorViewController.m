@@ -79,10 +79,10 @@
     UIColor* selectedColor;
     if( [color isEqual:@"Gold"] )
     {
-        selectedColor = [ColorViewController LimeGreen];
+        selectedColor = [ColorViewController Gold];
     }else
     {
-        selectedColor = [ColorViewController Gold];
+        selectedColor = [ColorViewController LimeGreen];
     }
     self.view.backgroundColor = selectedColor;
 }

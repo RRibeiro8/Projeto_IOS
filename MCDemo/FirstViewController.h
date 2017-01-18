@@ -7,10 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreData/CoreData.h>
 
-@interface FirstViewController : UIViewController <UITextFieldDelegate>
+@interface FirstViewController : UIViewController <UITextFieldDelegate, UITableViewDelegate, UITableViewDataSource>
 @property (weak, nonatomic) IBOutlet UITextField *txtMessage;
-@property (weak, nonatomic) IBOutlet UITextView *tvChat;
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
 
 
 - (IBAction)sendMessage:(id)sender;

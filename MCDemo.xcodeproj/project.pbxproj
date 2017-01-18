@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		0B25C3501E2FE42700FECFF3 /* ColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B25C34F1E2FE42700FECFF3 /* ColorViewController.m */; };
+		0B7983671E300C3C0041B80C /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0B7983651E300C3C0041B80C /* Model.xcdatamodeld */; };
+		0B79836B1E3029EE0041B80C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B7983681E301E780041B80C /* CoreData.framework */; };
+		0B79836C1E3029EE0041B80C /* CoreData.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0B7983681E301E780041B80C /* CoreData.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D91F126B187F1D1900F45BC3 /* sample_file1.txt in Resources */ = {isa = PBXBuildFile; fileRef = D91F1269187F1D1900F45BC3 /* sample_file1.txt */; };
 		D91F126C187F1D1900F45BC3 /* sample_file2.txt in Resources */ = {isa = PBXBuildFile; fileRef = D91F126A187F1D1900F45BC3 /* sample_file2.txt */; };
 		D9629273187BD6E600228E81 /* MCManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D9629272187BD6E600228E81 /* MCManager.m */; };
@@ -39,9 +42,25 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		0B79836D1E3029EE0041B80C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0B79836C1E3029EE0041B80C /* CoreData.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		0B25C34E1E2FE42700FECFF3 /* ColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorViewController.h; sourceTree = "<group>"; };
 		0B25C34F1E2FE42700FECFF3 /* ColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorViewController.m; sourceTree = "<group>"; };
+		0B7983661E300C3C0041B80C /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		0B7983681E301E780041B80C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		D91F1269187F1D1900F45BC3 /* sample_file1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sample_file1.txt; sourceTree = "<group>"; };
 		D91F126A187F1D1900F45BC3 /* sample_file2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sample_file2.txt; sourceTree = "<group>"; };
 		D9629271187BD6E600228E81 /* MCManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCManager.h; sourceTree = "<group>"; };
@@ -77,6 +96,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9EA8C11187B1954008031B5 /* CoreGraphics.framework in Frameworks */,
+				0B79836B1E3029EE0041B80C /* CoreData.framework in Frameworks */,
 				D9EA8C13187B1954008031B5 /* UIKit.framework in Frameworks */,
 				D9EA8C0F187B1954008031B5 /* Foundation.framework in Frameworks */,
 			);
@@ -117,6 +137,7 @@
 		D9EA8C0D187B1954008031B5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0B7983681E301E780041B80C /* CoreData.framework */,
 				D9EA8C0E187B1954008031B5 /* Foundation.framework */,
 				D9EA8C10187B1954008031B5 /* CoreGraphics.framework */,
 				D9EA8C12187B1954008031B5 /* UIKit.framework */,
@@ -145,6 +166,7 @@
 				D9EA8C15187B1954008031B5 /* Supporting Files */,
 				0B25C34E1E2FE42700FECFF3 /* ColorViewController.h */,
 				0B25C34F1E2FE42700FECFF3 /* ColorViewController.m */,
+				0B7983651E300C3C0041B80C /* Model.xcdatamodeld */,
 			);
 			path = MCDemo;
 			sourceTree = "<group>";
@@ -188,6 +210,7 @@
 				D9EA8C07187B1954008031B5 /* Sources */,
 				D9EA8C08187B1954008031B5 /* Frameworks */,
 				D9EA8C09187B1954008031B5 /* Resources */,
+				0B79836D1E3029EE0041B80C /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -283,6 +306,7 @@
 				D9EA8C48187B225C008031B5 /* ConnectionsViewController.m in Sources */,
 				D9629273187BD6E600228E81 /* MCManager.m in Sources */,
 				D9EA8C28187B1954008031B5 /* SecondViewController.m in Sources */,
+				0B7983671E300C3C0041B80C /* Model.xcdatamodeld in Sources */,
 				D9EA8C1F187B1954008031B5 /* AppDelegate.m in Sources */,
 				D9EA8C25187B1954008031B5 /* FirstViewController.m in Sources */,
 				D9EA8C1B187B1954008031B5 /* main.m in Sources */,
@@ -418,6 +442,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MCDemo/MCDemo-Prefix.pch";
 				INFOPLIST_FILE = "MCDemo/MCDemo-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = rribeiro.MCDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -435,6 +460,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MCDemo/MCDemo-Prefix.pch";
 				INFOPLIST_FILE = "MCDemo/MCDemo-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = rribeiro.MCDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -515,6 +541,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0B7983651E300C3C0041B80C /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0B7983661E300C3C0041B80C /* Model.xcdatamodel */,
+			);
+			currentVersion = 0B7983661E300C3C0041B80C /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = D9EA8C03187B1954008031B5 /* Project object */;
 }

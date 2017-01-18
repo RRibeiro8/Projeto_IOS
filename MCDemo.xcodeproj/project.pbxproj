@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B25C3501E2FE42700FECFF3 /* ColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B25C34F1E2FE42700FECFF3 /* ColorViewController.m */; };
 		D91F126B187F1D1900F45BC3 /* sample_file1.txt in Resources */ = {isa = PBXBuildFile; fileRef = D91F1269187F1D1900F45BC3 /* sample_file1.txt */; };
 		D91F126C187F1D1900F45BC3 /* sample_file2.txt in Resources */ = {isa = PBXBuildFile; fileRef = D91F126A187F1D1900F45BC3 /* sample_file2.txt */; };
 		D9629273187BD6E600228E81 /* MCManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D9629272187BD6E600228E81 /* MCManager.m */; };
@@ -39,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B25C34E1E2FE42700FECFF3 /* ColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorViewController.h; sourceTree = "<group>"; };
+		0B25C34F1E2FE42700FECFF3 /* ColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorViewController.m; sourceTree = "<group>"; };
 		D91F1269187F1D1900F45BC3 /* sample_file1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sample_file1.txt; sourceTree = "<group>"; };
 		D91F126A187F1D1900F45BC3 /* sample_file2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sample_file2.txt; sourceTree = "<group>"; };
 		D9629271187BD6E600228E81 /* MCManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCManager.h; sourceTree = "<group>"; };
@@ -140,6 +143,8 @@
 				D91F126A187F1D1900F45BC3 /* sample_file2.txt */,
 				D9EA8C29187B1954008031B5 /* Images.xcassets */,
 				D9EA8C15187B1954008031B5 /* Supporting Files */,
+				0B25C34E1E2FE42700FECFF3 /* ColorViewController.h */,
+				0B25C34F1E2FE42700FECFF3 /* ColorViewController.m */,
 			);
 			path = MCDemo;
 			sourceTree = "<group>";
@@ -281,6 +286,7 @@
 				D9EA8C1F187B1954008031B5 /* AppDelegate.m in Sources */,
 				D9EA8C25187B1954008031B5 /* FirstViewController.m in Sources */,
 				D9EA8C1B187B1954008031B5 /* main.m in Sources */,
+				0B25C3501E2FE42700FECFF3 /* ColorViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
